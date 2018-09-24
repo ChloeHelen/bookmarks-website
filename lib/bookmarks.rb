@@ -1,5 +1,5 @@
 class Bookmarks
   def all
-    "Test bookmark"
+    ["test.com", "test2.com", "test3.com"]
   end
 end
