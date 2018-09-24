@@ -3,7 +3,11 @@ require 'sinatra/base'
 class HelloWorld < Sinatra::Base
 
   get '/' do
-    "List"
+    erb :index
+  end
+
+  get '/bookmarks' do
+    erb :bookmarks
   end
 
   run! if app_file == $0

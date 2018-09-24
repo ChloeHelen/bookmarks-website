@@ -1,7 +1,31 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/chloemingay/bookmarks-website/spec/features/homepage_features_spec.rb": [
+      "/Users/alexandradresco/projects/bookmarks-website/spec/bookmarks_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/alexandradresco/projects/bookmarks-website/lib/bookmarks.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/alexandradresco/projects/bookmarks-website/spec/features/bookmarks_page_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/alexandradresco/projects/bookmarks-website/spec/features/homepage_features_spec.rb": [
         1,
         1,
         1,
@@ -10,6 +34,6 @@
         null
       ]
     },
-    "timestamp": 1537795896
+    "timestamp": 1537796684
   }
 }
