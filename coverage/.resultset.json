@@ -1,7 +1,15 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/chloemingay/bookmarks-website/spec/features/homepage_features_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ]
     },
-    "timestamp": 1537795720
+    "timestamp": 1537795896
   }
 }

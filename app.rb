@@ -3,7 +3,7 @@ require 'sinatra/base'
 class HelloWorld < Sinatra::Base
 
   get '/' do
-    "Hello world"
+    "List"
   end
 
   run! if app_file == $0
