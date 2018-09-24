@@ -8,9 +8,9 @@ class HelloWorld < Sinatra::Base
   end
 
   get '/bookmarks' do
-    bookmark = Bookmark.new
-    @all = bookmark.all
-    erb :bookmarks
+    @bookmark = Bookmarks.new
+    @all = @bookmark.all
+    erb :'bookmarks/index'
   end
 
   run! if app_file == $0
