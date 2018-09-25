@@ -8,8 +8,7 @@ class HelloWorld < Sinatra::Base
   end
 
   get '/bookmarks' do
-    @bookmark = Bookmarks.new
-    @all = @bookmark.all
+    @all = Bookmarks.all
     erb :'bookmarks/index'
   end
 

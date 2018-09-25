@@ -1,8 +1,8 @@
 feature 'Bookmarks page' do
   scenario 'shows the bookmarks' do
     visit('/bookmarks')
-    expect(page).to have_content("test.com")
-    expect(page).to have_content("test2.com")
-    expect(page).to have_content("test3.com")
+    expect(page).to have_content("http://www.makersacademy.com")
+    expect(page).to have_content("http://www.google.com")
+    expect(page).to have_content("http://www.destroyallsoftware.com")
   end
 end
