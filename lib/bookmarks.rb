@@ -4,14 +4,13 @@ class Bookmarks
 
   def self.all
 
-    begin
+    database = ENV['RACK_ENV'] == 'test' ? 'bookmark_manager_test' : 'bookmark_manager'
 
-        con = PG.connect :dbname => 'bookmark_manager', :user => 'chloemingay'
+    con = PG.connect :dbname => database , :user => 'chloemingay'
 
-        result = con.exec "SELECT * FROM bookmark LIMIT 5"
+    result = con.exec "SELECT * FROM bookmark"
 
-        result.map {|row| row['url']}
-      end
-    end
+    result.map {|row| row['url']}
+
+  end
 end
-#chloes and shweta's breath stink
